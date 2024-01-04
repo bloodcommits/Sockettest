@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const http = require("http").createServer(app);
 
-const PORT = process.env.PORT || 3004
+const PORT = 3004
 
 http.listen(PORT, ()=> {
     console.log(`Listening on port ${PORT}`)
